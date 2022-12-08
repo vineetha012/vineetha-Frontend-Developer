@@ -13,7 +13,7 @@ function App() {
      <BrowserRouter>
      <SpaceXContextProvider>
      <Routes>
-          <Route path='' element={<LandingPage/>}/>
+          <Route path='/spacex' element={<LandingPage/>}/>
       </Routes>
      </SpaceXContextProvider>
      </BrowserRouter>
