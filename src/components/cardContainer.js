@@ -10,11 +10,8 @@ export const CardContainer=()=>{
     const keys=["status","type"]
     const HandleSearch=(data)=>{
         return data.filter((item)=>keys.some((key)=>item[key].toLowerCase().includes(searchval)))
-        //return data.filter((field)=> parak.some((val)=>field[val].toLowerCase().includes(searchval)))
+       
     }
-    // useEffect(()=>{
-    //     getdata()
-    // },[])
     const indexOfLastItem = currentpage * Itemperpage;
     const indexOfFirstItem = indexOfLastItem - Itemperpage;
     const currentItems=capsuleData.slice(indexOfFirstItem,indexOfLastItem)

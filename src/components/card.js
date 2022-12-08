@@ -26,13 +26,13 @@ export const Card = ({ data }) => {
                     <div className="list">{data.capsule_serial}</div>
                 </ul>
                 <ul className="ul">
-                    <label className="caplabel">Capsule ID : </label>
-                    <div className="list">{data.capsule_id}</div>
+                    <label className="caplabel">type : </label>
+                    <div className="list">{data.type}</div>
                 </ul>
 
                 <img src={capsuleimg} style={{ width: "298px", height: "250px" ,marginLeft:"50px"}} />
                 <ul className="ul">
-                    <label className="caplabel">Capsule ID : </label>
+                    <label className="caplabel">Status : </label>
                     <div className="list">{data.status}</div>
                 </ul>
                 <div className="learnBtnContainer">
